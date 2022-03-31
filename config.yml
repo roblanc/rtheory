@@ -1,4 +1,4 @@
-baseurl      = "localhost"
+baseurl      = "https://rtheory.xyz"
 title        = "My Blog"
 languageCode = "en-us"
 theme        = "hello-friend-ng"
