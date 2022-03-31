@@ -1,40 +1,52 @@
-baseURL: "https://rtheory.xyz"
-languageCode: en-us
-title: robert's theory
-theme: hello-friend-ng
+baseurl      = "localhost"
+title        = "My Blog"
+languageCode = "en-us"
+theme        = "hello-friend-ng"
+paginate     = 10
 
-params:
-  homeInfoParams:
-    Title: "hello."
-    Content: I write, design, I edit videos + some other experiments 🧪 :. on refactored perception + trying to improve cognition using info clusters & visuals ~
-  socialIcons:
-    - name: instagram
-      url: 'https://www.instagram.com/robsblanc/'
-    - name: twitter
-      url: 'https://twitter.com/robsblanc'
+[params]
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04"
 
-params:
-  cover:
-    linkFullImages: true  
+  # Subtitle for home
+  homeSubtitle = "A simple and beautiful blog"
 
-ShowBreadCrumbs: true
+  # Set disableReadOtherPosts to true in order to hide the links to other posts.
+  disableReadOtherPosts = false
 
-ShowReadingTime: true
+  # Enable sharing buttons, if you like
+  enableSharingButtons = true
 
-ShowShareButtons: true
+  # Metadata mostly used in document's head
+  description = "My new homepage or blog"
+  keywords = "homepage, blog"
+  images = [""]
 
+[taxonomies]
+    category = "blog"
+    tag      = "tags"
+    series   = "series"
 
-menu:
-  main: 
-  - identifier: categories
-    name: categories
-    url: /categories/
-    weight: 10
-  - identifier: tags
-    name: tags
-    url: /tags/
-    weight: 20
-  - identifier: archives
-    name: archives
-    url: /archives/
-    weight: 30
+[languages]
+  [languages.en]
+    title = "Hello Friend NG"
+    subtitle = "A simple theme for Hugo"
+    keywords = ""
+    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+    readOtherPosts = "Read other posts"
+
+    [languages.en.params.logo]
+      logoText = "hello friend ng"
+      logoHomeLink = "/"
+    # or
+    #
+    # path = "/img/your-example-logo.svg"
+    # alt = "Your example logo alt text"
+
+  # And you can even create generic menu
+  [[menu.main]]
+    identifier = "blog"
+    name       = "Blog"
+    url        = "/posts"
