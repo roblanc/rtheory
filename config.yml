@@ -1,0 +1,40 @@
+baseURL: "https://rtheory.xyz"
+languageCode: en-us
+title: robert's theory
+theme: hello-friend-ng
+
+params:
+  homeInfoParams:
+    Title: "hello."
+    Content: I write, design, I edit videos + some other experiments 🧪 :. on refactored perception + trying to improve cognition using info clusters & visuals ~
+  socialIcons:
+    - name: instagram
+      url: 'https://www.instagram.com/robsblanc/'
+    - name: twitter
+      url: 'https://twitter.com/robsblanc'
+
+params:
+  cover:
+    linkFullImages: true  
+
+ShowBreadCrumbs: true
+
+ShowReadingTime: true
+
+ShowShareButtons: true
+
+
+menu:
+  main: 
+  - identifier: categories
+    name: categories
+    url: /categories/
+    weight: 10
+  - identifier: tags
+    name: tags
+    url: /tags/
+    weight: 20
+  - identifier: archives
+    name: archives
+    url: /archives/
+    weight: 30
