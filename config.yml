@@ -1,8 +1,7 @@
-baseurl      = "http://localhost:1313/"
-title        = "My Blog"
-languageCode = "en-us"
-theme        = "hello-friend-ng"
-paginate     = 10
+baseURL: "https://rtheory.xyz"
+languageCode: en-us
+title: robert's theory
+theme: hello-friend-ng
 
 [params]
   dateform        = "Jan 2, 2006"
