@@ -31,7 +31,7 @@ paginate     = 10
 
 [languages]
   [languages.en]
-    title = "Hello Friend NG"
+    title = "Hello, dear friend"
     subtitle = "A simple theme for Hugo"
     keywords = ""
     copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
@@ -50,3 +50,18 @@ paginate     = 10
     identifier = "blog"
     name       = "Blog"
     url        = "/posts"
+
+[[menu.main]]
+    name = "Blog"
+    url = ""
+    weight = 1
+
+[[menu.main]]
+    name = "About"
+    url = "page/about/"
+    weight = 2
+
+[[menu.main]]
+    name = "Tags"
+    url = "tags"
+    weight = 3
