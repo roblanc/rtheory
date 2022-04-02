@@ -4,6 +4,8 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
+- type: heading
+  label: "Products and Projects \U0001F392"
 - type: directory
   path: content
   label: Pages
