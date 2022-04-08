@@ -31,7 +31,7 @@ paginate     = 10
 
 [languages]
   [languages.en]
-    title = "rtheory.xyz"
+    title = "hello!"
     subtitle = "experiments in refactored perception"
     keywords = ""
     copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
